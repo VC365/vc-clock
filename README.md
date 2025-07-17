@@ -30,3 +30,22 @@ Preview
       <img src="https://github.com/user-attachments/assets/edc7afb3-b3be-4825-a78a-26f561284c86" alt="normal_mode" />
     </td>
   </tr></table></div>
+
+Installation
+------------
+```bash
+chmod a+x install.sh
+./install.sh install
+```
+
+To uninstall:
+
+```bash
+./install.sh uninstall
+```
+
+## Usage
+
+```bash
+vc-clock &
+```
