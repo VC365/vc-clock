@@ -6,7 +6,7 @@ pkgdesc="a lightweight Analog Clock applet"
 arch=('x86_64')
 url="https://github.com/VC365/vc-clock"
 license=('Proprietary')
-depends=('libsvg' 'gtk2')
+depends=('librsvg' 'gtk2')
 makedepends=('git')
 source=("git+https://github.com/VC365/vc-clock.git#tag=v$pkgver")
 sha256sums=('SKIP')
