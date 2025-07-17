@@ -18,19 +18,6 @@ CLI Options
   -n, --no-tooltip          Disable tooltip.
 ```
 
-Preview
--------
-<div align="center"><table><tr>
-    <td align="center">
-      <b>Soft Mode</b><hr>
-      <img src="https://github.com/user-attachments/assets/3c038bdd-6673-4c1a-8b7b-c9ab8c87214f" alt="soft_mode" />
-    </td>
-    <td align="center">
-      <b>Normal Mode</b><hr>
-      <img src="https://github.com/user-attachments/assets/edc7afb3-b3be-4825-a78a-26f561284c86" alt="normal_mode" />
-    </td>
-  </tr></table></div>
-
 Installation
 ------------
 ```bash
@@ -49,3 +36,16 @@ To uninstall:
 ```bash
 vc-clock &
 ```
+
+Preview
+-------
+<div align="center"><table><tr>
+    <td align="center">
+      <b>Soft Mode</b><hr>
+      <img src="https://github.com/user-attachments/assets/3c038bdd-6673-4c1a-8b7b-c9ab8c87214f" alt="soft_mode" />
+    </td>
+    <td align="center">
+      <b>Normal Mode</b><hr>
+      <img src="https://github.com/user-attachments/assets/edc7afb3-b3be-4825-a78a-26f561284c86" alt="normal_mode" />
+    </td>
+  </tr></table></div>
