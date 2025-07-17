@@ -18,6 +18,19 @@ CLI Options
   -n, --no-tooltip          Disable tooltip.
 ```
 
+AUR Installation
+----------------
+```bash
+cd volume-pulse
+makepkg -i
+```
+
+## Usage
+
+```bash
+volume-pulse &
+```
+
 Preview
 -------
 <div align="center"><table><tr>
