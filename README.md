@@ -21,14 +21,14 @@ CLI Options
 AUR Installation
 ----------------
 ```bash
-cd volume-pulse
+cd vc-clock
 makepkg -i
 ```
 
 ## Usage
 
 ```bash
-volume-pulse &
+vc-clock &
 ```
 
 Preview
