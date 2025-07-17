@@ -44,8 +44,16 @@ To uninstall:
 ./installer.sh uninstall
 ```
 
-## Usage
-
+Usage
+-----
 ```bash
 vc-clock &
 ```
+
+License
+-------
+Proprietary. All rights reserved.
+
+Author
+------
+[VC365](https://github.com/VC365)
