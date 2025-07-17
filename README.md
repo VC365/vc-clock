@@ -21,14 +21,14 @@ CLI Options
 Installation
 ------------
 ```bash
-chmod a+x install.sh
-./install.sh install
+chmod a+x installer.sh
+./installer.sh install
 ```
 
 To uninstall:
 
 ```bash
-./install.sh uninstall
+./installer.sh uninstall
 ```
 
 ## Usage
