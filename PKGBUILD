@@ -1,0 +1,33 @@
+# Contributor: VC365
+pkgname=vc-clock
+pkgver=0.1.1
+pkgrel=2
+pkgdesc="a lightweight Analog Clock applet"
+arch=('x86_64')
+url="https://github.com/VC365/vc-clock"
+license=('Proprietary')
+depends=('libsvg' 'gtk2')
+makedepends=('git')
+source=("git+https://github.com/VC365/vc-clock.git#tag=v$pkgver")
+sha256sums=('SKIP')
+
+package() {
+  cd "$srcdir/vc-clock"
+    if [ ! -f vc-clock ]; then
+        echo -e "${RED} vc-clock not found in current directory!${NC}"
+        exit 1
+    fi
+	  install -Dm755 vc-clock "$pkgdir"/usr/bin/vc-clock
+}
+
+post_install() {
+  echo "VC Clock installed successfully."
+}
+
+post_remove() {
+  echo "Removing vc-clock..."
+
+  rm -f "$pkgdir/usr/bin/vc-clock"
+
+  echo "vc-clock deleted!"
+}
