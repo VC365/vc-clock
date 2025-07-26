@@ -33,6 +33,21 @@ CLI Options
 
 Installation
 ------------
+### Using AUR
+
+```bash
+paru -S volume-pulse
+# or
+yay -S volume-pulse
+```
+#### Manual Installation
+```bash
+git clone https://aur.archlinux.org/volume-pulse.git
+cd volume-pulse
+makepkg -si
+```
+### Using the installer script
+
 ```bash
 chmod a+x installer.sh
 ./installer.sh install
