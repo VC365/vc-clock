@@ -36,14 +36,14 @@ Installation
 ### Using AUR
 
 ```bash
-paru -S volume-pulse
+paru -S vc-clock
 # or
-yay -S volume-pulse
+yay -S vc-clock
 ```
 #### Manual Installation
 ```bash
-git clone https://aur.archlinux.org/volume-pulse.git
-cd volume-pulse
+git clone https://aur.archlinux.org/vc-clock.git
+cd vc-clock
 makepkg -si
 ```
 ### Using the installer script
