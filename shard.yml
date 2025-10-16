@@ -1,0 +1,13 @@
+name: vc-clock
+version: 0.1.0
+
+authors:
+  - VC365 <xdood.sav@outlook.com>
+
+targets:
+  vc-clock:
+    main: src/vc-clock.cr
+
+crystal: '>= 1.17.1'
+
+license: MIT
