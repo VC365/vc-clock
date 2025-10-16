@@ -12,11 +12,11 @@ Preview
 <div align="center"><table><tr>
     <td align="center">
       <b>Soft Mode</b><hr>
-      <img src="https://github.com/VC365/vc-clock/assets/soft_mode.gif" alt="soft_mode" />
+      <img src="https://github.com/VC365/vc-clock/blob/main/assets/soft_mode.gif" alt="soft_mode" />
     </td>
     <td align="center">
       <b>Normal Mode</b><hr>
-      <img src="https://github.com/VC365/vc-clock/assets/normal_mode.gif" alt="normal_mode" />
+      <img src="https://github.com/VC365/vc-clock/blob/main/assets/normal_mode.gif" alt="normal_mode" />
     </td>
   </tr></table></div>
 
