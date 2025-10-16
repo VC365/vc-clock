@@ -1,6 +1,6 @@
 VC Clock
 ========
-a lightweight Analog Clock applet for linux (Based C and GTK2).
+a lightweight Analog Clock applet for linux (Based (C & Crystal) and GTK2).
 
 The app supports two modes:
 
@@ -12,11 +12,11 @@ Preview
 <div align="center"><table><tr>
     <td align="center">
       <b>Soft Mode</b><hr>
-      <img src="https://github.com/user-attachments/assets/3c038bdd-6673-4c1a-8b7b-c9ab8c87214f" alt="soft_mode" />
+      <img src="https://github.com/VC365/vc-clock/assets/soft_mode.gif" alt="soft_mode" />
     </td>
     <td align="center">
       <b>Normal Mode</b><hr>
-      <img src="https://github.com/user-attachments/assets/edc7afb3-b3be-4825-a78a-26f561284c86" alt="normal_mode" />
+      <img src="https://github.com/VC365/vc-clock/assets/normal_mode.gif" alt="normal_mode" />
     </td>
   </tr></table></div>
 
@@ -50,7 +50,8 @@ makepkg -si
 
 ```bash
 chmod a+x installer.sh
-./installer.sh install
+./installer.sh install c
+./installer.sh install crystal
 ```
 
 To uninstall:
@@ -65,10 +66,14 @@ Usage
 vc-clock &
 ```
 
-License
--------
-Proprietary. All rights reserved.
+## Contributing
 
-Author
-------
-[VC365](https://github.com/VC365)
+1. Fork it (<https://github.com/VC365/vc-clock/fork>)
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
+
+## Contributors
+
+- [VC365](https://github.com/VC365) - creator and maintainer
