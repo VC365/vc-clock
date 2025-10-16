@@ -26,12 +26,12 @@ CLI Options
 vc-clock -h
 Usage: vc-clock [--size <icon_size>] [--utime <milliseconds>] [-h] [-v] [-f] [-n]
  Options:
-    --size PIXEL                     Icon size (16 - 128). Default is 32.
-    --utime MILLISECONDS             Update interval for soft mode (100 - 1000). Default is 240.
-    -n, --no-tooltip                 Disable tooltip.
-    -f, --soft                       Enable soft mod.
-    -v, --version                    Show version.
-    -h, --help                       Show this help message.
+    --size PIXEL                 Icon size (16 - 128). Default is 32.
+    --utime MILLISECONDS         Update interval for soft mode (100 - 1000). Default is 240.
+    -n, --no-tooltip             Disable tooltip.
+    -f, --soft                   Enable soft mod.
+    -v, --version                Show version.
+    -h, --help                   Show this help message.
                  Credit : VC365 (https://github.com/VC365) 
 ```
 
