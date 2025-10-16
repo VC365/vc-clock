@@ -38,7 +38,7 @@ module Xlib
   VERSION="0.1.5"
   class_property icon_size : Int32=32
   class_property tooltip : Bool=true
-  class_property interval : Int32=180
+  class_property interval : Int32=240
   class_property soft : Bool=false
   class_property timer_id : Int64=0
 

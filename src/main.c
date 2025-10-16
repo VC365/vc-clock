@@ -8,7 +8,7 @@
 GtkStatusIcon* tray;
 static int icon_size = 32;
 static int no_tooltip = 0;
-static int update_interval = 200;
+static int update_interval = 240;
 char *version="0.1.5";
 static int coco = 0;
 static guint timer_id = 0;
@@ -68,7 +68,7 @@ void arguments(const int argc, char* argv[])
             printf("Usage: %s [--size <icon_size>] [--utime <milliseconds>] [-h] [-v] [-f] [-n]\n", argv[0]);
             printf("Options:\n");
             printf("  -size <pixel>             Icon size (16 - 128). Default is 32.\n");
-            printf("  -utime <milliseconds>     Update interval for soft mode (100 - 1000). Default is 500.\n");
+            printf("  -utime <milliseconds>     Update interval for soft mode (100 - 1000). Default is %d.\n",update_interval);
             printf("  -h, --help                Show this help message.\n");
             printf("  -v, --version             Show version.\n");
             printf("  -f, --soft                Enable soft mod.\n");

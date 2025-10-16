@@ -5,7 +5,7 @@ a lightweight Analog Clock applet for linux (Based (C & Crystal) and GTK2).
 The app supports two modes:
 
 - **Normal mode**: Updates once per second.
-- **Soft mode** (`--soft`): Updates more smoothly with sub-second precision.
+- **Soft mode** (`-f, --soft`): Updates more smoothly with sub-second precision.
 
 Preview
 -------
@@ -23,12 +23,16 @@ Preview
 CLI Options
 -----------
 ```bash
-  -size <pixel>             Icon size (16 - 128). Default is 32.
-  -utime <milliseconds>     Update interval for soft mod! (100 - 1000). Default is 500.
-  -h, --help                Show this help message.
-  -v, --version             Show version.
-  -f, --soft                Enable soft mod.
-  -n, --no-tooltip          Disable tooltip.
+vc-clock -h
+Usage: vc-clock [--size <icon_size>] [--utime <milliseconds>] [-h] [-v] [-f] [-n]
+ Options:
+    --size PIXEL                     Icon size (16 - 128). Default is 32.
+    --utime MILLISECONDS             Update interval for soft mode (100 - 1000). Default is 240.
+    -n, --no-tooltip                 Disable tooltip.
+    -f, --soft                       Enable soft mod.
+    -v, --version                    Show version.
+    -h, --help                       Show this help message.
+                 Credit : VC365 (https://github.com/VC365) 
 ```
 
 Installation
@@ -51,6 +55,7 @@ makepkg -si
 ```bash
 chmod a+x installer.sh
 ./installer.sh install c
+# OR
 ./installer.sh install crystal
 ```
 

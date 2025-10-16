@@ -7,7 +7,7 @@ def arguments
         arg.on("--size PIXEL","Icon size (16 - 128). Default is 32.") do |val|
             Xlib.icon_size=(val.to_i? || 32).clamp(16, 128)
         end
-        arg.on("--utime MILLISECONDS","Update interval for soft mode (100 - 1000). Default is 450.") do |val|
+        arg.on("--utime MILLISECONDS","Update interval for soft mode (100 - 1000). Default is #{Xlib.interval}.") do |val|
             Xlib.interval=(val.to_i? || 450).clamp(100, 1000)
         end
         arg.on("-n","--no-tooltip","Disable tooltip.") do
